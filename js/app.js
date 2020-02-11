@@ -96,7 +96,7 @@ function getWinner() {
 
   winningConditions.forEach(function(condition, index) {
     if (
-      board[c[0]] &&
+      board[condition[0]] &&
       board[condition[0]] === board[condition[1]] &&
       board[condition[0]] === board[condition[2]]
     ){
