@@ -20,11 +20,11 @@ let o_wins = 0;
 let ties= 0;
 
 ///////////////////// CACHED ELEMENT REFERENCES /////////////////////
-const s = Array.from(document.querySelectorAll("#board div"));
+const squares = Array.from(document.querySelectorAll("#board div"));
 const message = document.querySelector("h2");
 
 ///////////////////// EVENT LISTENERS ///////////////////////////////
-window.onload = init;
+window.onload = nit;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset-button").onclick = init;
 document.getElementById("reset-scoreboard").onclick = resetScoreboard;
