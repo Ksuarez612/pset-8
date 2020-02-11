@@ -1,7 +1,6 @@
-body {
+ody {
   text-align: center;
   font-family: "Roboto", monospace;
-  background-color: lightblue;
 }
 h1 {
   margin: 0 auto;
@@ -46,31 +45,12 @@ h2 {
   width: 150px;
 }
 .square:hover {
-  background-color: white;
+  background-color: lightgray;
   cursor: pointer;
 }
 #table {
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
-}
-#x_wins {
-  border: 1px solid rgba(0, 0, 0, 0.75);
-  font-size: 20px;
-  height: 50px;
-  line-height: 50px;
-  user-select: none;
-  width: 150px;
-  background-color: white;
-}
-#o_wins {
-  border: 1px solid rgba(0, 0, 0, 0.75);
-  font-size: 20px;
-  height: 50px;
-  line-height: 50px;
-  user-select: none;
-  width: 150px;
-  background-color: white;
 }
 #reset-button {
   background-color: white;
@@ -83,13 +63,17 @@ h2 {
   width: 456px;
 }
 #reset-button:hover {
-  background-color: lightgray;
-  color: black;
+  background-color: black;
+  color: white;
   cursor: pointer;
 }
 #table2 {
   margin-left: auto;
   margin-right: auto;
+}
+#switch:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
 #switch {
   border: 1px solid rgba(0, 0, 0, 0.75);
@@ -99,9 +83,30 @@ h2 {
   line-height: 50px;
   user-select: none;
   width: 300px;
-  background-color: white;
 }
-#switch:hover {
-  background-color: lightgray;
+#reset-scoreboard {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 21px;
+  line-height: 55px;
+  margin: 0%;
+  text-align: center;
+  width: 456px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#reset-scoreboard:hover {
+  background-color: black;
+  color: white;
   cursor: pointer;
+}
+td {
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  user-select: none;
+  width: 150px;
 }
