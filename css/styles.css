@@ -1,25 +1,38 @@
 body {
   text-align: center;
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 40px;
+  font-size: 38px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;;
+  background-color: #999999;
+}
+
+h1 {
+  margin: 0 auto;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 38px;
   letter-spacing: 6px;
-  word-spacing: -5px;
+  word-spacing: 2px;
   color: #FFFFFF;
   font-weight: bold;
   text-decoration: none;
   font-style: normal;
   font-variant: normal;
   text-transform: none;
-}
-h1 {
-  margin: 0 auto;
-  font-family: "Major Mono Display", monospace;
-  font-size: 48px;
+  font-size: 50px;
   margin: 2%;
+  font-style: italic;
+  color: #FFFFFF
 }
 h2 {
-  font-size: 36px;
-  font-weight: lighter;
+  font-size: 50px;
+  font-weight: bold;
   margin: 2%;
 }
 .wins {
@@ -29,6 +42,7 @@ h2 {
   line-height: 50px;
   user-select: none;
   width: 150px;
+  color: #FFFFFF
 }
 .container {
   display: flex;
@@ -62,9 +76,9 @@ h2 {
   margin-right: auto;
 }
 #reset-button {
-  background-color: white;
+  background-color: black;
   border: 1px solid black;
-  color: black;
+  color: white;
   font-size: 21px;
   line-height: 55px;
   margin: 1%;
@@ -72,8 +86,8 @@ h2 {
   width: 456px;
 }
 #reset-button:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   cursor: pointer;
 }
 #table2 {
@@ -94,9 +108,9 @@ h2 {
   width: 300px;
 }
 #reset-scoreboard {
-  background-color: white;
+  background-color: black;
   border: 1px solid black;
-  color: black;
+  color: white;
   font-size: 21px;
   line-height: 55px;
   margin: 0%;
@@ -107,8 +121,8 @@ h2 {
 }
 
 #reset-scoreboard:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   cursor: pointer;
 }
 td {
