@@ -50,7 +50,7 @@ function init() {
     }
   } while (first_Player !== "X" && first_Player !== "x" && first_Player !== "O" && first_Player !== "o");
 
-  w = null;
+  win = null;
 
   render();
 }
@@ -96,7 +96,7 @@ function getWinner() {
 
   winningConditions.forEach(function(condition, index) {
     if (
-      board[condition[0]] &&
+      board[c[0]] &&
       board[condition[0]] === board[condition[1]] &&
       board[condition[0]] === board[condition[2]]
     ){
