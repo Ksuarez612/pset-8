@@ -24,7 +24,7 @@ const squares = Array.from(document.querySelectorAll("#board div"));
 const message = document.querySelector("h2");
 
 ///////////////////// EVENT LISTENERS ///////////////////////////////
-window.onload = nit;
+window.onload = init;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset-button").onclick = init;
 document.getElementById("reset-scoreboard").onclick = resetScoreboard;
@@ -34,7 +34,7 @@ function init() {
     "", "", "",
     "", "", "",
     "", "", ""
-  ];
+  ]
 
   do {
     var first_Player = prompt("Enter X or O to determine who goes first: ");
