@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 38px;
+  font-size: 50px;
   letter-spacing: 2px;
   word-spacing: 2px;
   color: #FFFFFF;
@@ -125,6 +125,7 @@ h2 {
   color: black;
   cursor: pointer;
 }
+
 td {
   border: 1px solid rgba(0, 0, 0, 0.75);
   font-size: 20px;
