@@ -34,10 +34,10 @@ function init() {
     "", "", "",
     "", "", "",
     "", "", ""
-  ]
+  ];
 
   do {
-    var first_Player = prompt("Enter X or O to determine who goes first: ");
+    var fp = prompt("Enter X or O to determine who goes first: ");
     if (first_Player === null) {
       turn = "X";
       break;
