@@ -20,7 +20,7 @@ let o_wins = 0;
 let ties= 0;
 
 ///////////////////// CACHED ELEMENT REFERENCES /////////////////////
-const squares = Array.from(document.querySelectorAll("#board div"));
+const s = Array.from(document.querySelectorAll("#board div"));
 const message = document.querySelector("h2");
 
 ///////////////////// EVENT LISTENERS ///////////////////////////////
