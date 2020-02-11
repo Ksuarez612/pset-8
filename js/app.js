@@ -37,7 +37,7 @@ function init() {
   ];
 
   do {
-    var fp = prompt("Enter X or O to determine who goes first: ");
+    var first_Player = prompt("Enter X or O to determine who goes first: ");
     if (first_Player === null) {
       turn = "X";
       break;
@@ -50,7 +50,7 @@ function init() {
     }
   } while (first_Player !== "X" && first_Player !== "x" && first_Player !== "O" && first_Player !== "o");
 
-  win = null;
+  w = null;
 
   render();
 }
