@@ -98,7 +98,7 @@ h2 {
 #reset-scoreboard {
   background-color: black;
   border: 1px solid black;
-  color: white;
+  color: #FFFFFF;
   font-size: 21px;
   line-height: 55px;
   margin: 0%;
@@ -109,7 +109,7 @@ h2 {
 }
 
 #reset-scoreboard:hover {
-  background-color: white;
+  background-color: #FFFFFF;
   color: black;
   cursor: pointer;
 }
