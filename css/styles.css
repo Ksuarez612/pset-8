@@ -78,7 +78,7 @@ h2 {
 #reset-button {
   background-color: black;
   border: 1px solid black;
-  color: #FFFFFF;
+  color: white;
   font-size: 21px;
   line-height: 55px;
   margin: 1%;
@@ -98,7 +98,7 @@ h2 {
 #reset-scoreboard {
   background-color: black;
   border: 1px solid black;
-  color: #FFFFFF;
+  color: white;
   font-size: 21px;
   line-height: 55px;
   margin: 0%;
@@ -109,13 +109,13 @@ h2 {
 }
 
 #reset-scoreboard:hover {
-  background-color: #FFFFFF;
+  background-color: white;
   color: black;
   cursor: pointer;
 }
 
 td {
-  border: 1px solid rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
   font-size: 20px;
   height: 50px;
   line-height: 50px;
